@@ -1,0 +1,24 @@
+# Step 1: Create an empty list
+my_list = []  # Starts with no elements
+
+# Step 2: Append elements 10, 20, 30, 40
+my_list.append(10)  # Adds 10 to the list
+my_list.append(20)  # Adds 20 to the list
+my_list.append(30)  # Adds 30 to the list
+my_list.append(40)  # Adds 40 to the list
+
+# Step 3: Insert value 15 at the second position (index 1)
+my_list.insert(1, 15)  # Puts 15 between 10 and 20
+
+# Step 4: Extend the list with [50, 60, 70]
+my_list.extend([50, 60, 70])  # Adds three new elements at the end
+
+# Step 5: Remove the last element
+my_list.pop()  # Removes the last element (70 in this case)
+
+# Step 6: Sort the list in ascending order
+my_list.sort()  # Orders numbers from smallest to largest
+
+# Step 7: Find and print the index of the value 30
+index_30 = my_list.index(30)  # Finds where 30 is located
+print("Index of 30:", index_30)  # Prints the index position
